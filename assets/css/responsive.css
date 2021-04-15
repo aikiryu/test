@@ -1,0 +1,734 @@
+/* ==================================================
+=	Responsive Mobile-first Media Queries	=
+===================================================== */
+
+/* --------------------------------------------------------------- max1920px --------------------- */
+/* -------------------------------------------------------------------------------------- */
+@media screen and (max-width : 1920px) {
+	.pg_ser_txt{
+	    padding-top: 120px;
+	}
+	
+	.pf_g2_banner .dt{
+	    height: 950px;
+	}
+	.pf_g_scroll_top{
+	    right: 178px;
+	}
+
+	.pfr_slider .dt,
+	.event_banner_table.dt,
+	.page_banner_content{
+	    height: 974px;
+	}
+	
+}/* ------ end max1920px ------- */
+
+
+/* --------------------------------------------------------------- max1366px --------------------- */
+/* -------------------------------------------------------------------------------------- */
+@media screen and (max-width : 1366px) {
+	.pg_ser_txt {
+	    padding-top: 60px;
+	    padding-left: 80px;
+	    padding-right: 20px;
+	}
+
+	.pf_g2_banner .dt{
+	    height: 662px;
+	}
+	.page_banner_content{
+	    height: 662px;
+	}
+	
+	.event_banner_content {
+		padding: 137px 0 120px 0;
+	}
+
+	.pf_g_scroll_top{
+	    right: 10px;
+	}
+
+	.pfr_slider .dt{
+	    height: 670px;
+	}
+	.event_banner_table.dt {
+	    height: 662px;
+	}
+	
+}/* ------ end max1366px ------- */
+
+@media screen and (max-width : 1365px) {
+	.pfh_scroll_top{
+		bottom: 120px;
+		left: 45%;
+	}	
+}
+
+/* --------------------------------------------------------------- max1280px --------------------- */
+/* -------------------------------------------------------------------------------------- */
+@media screen and (max-width : 1280px) {
+	
+}
+
+@media screen and (max-width : 1200px) {
+	
+	
+}
+
+@media screen and (max-width : 1199px){
+	
+
+}
+
+/* --------------------------------------------------------------- max1024px ---------------------- */
+/* -------------------------------------------------------------------------------------- */
+@media screen and (max-width : 1024px) {
+	
+}/* ------ end max1024px ------- */
+
+/* --------------------------------------------------------------- max992px ---------------------- */
+/* -------------------------------------------------------------------------------------- */
+@media screen and (max-width : 992px) {
+	#pfr_testimonial.owl-theme .owl-nav .owl-prev{
+		margin-right: 230px;
+	}
+
+
+
+}/* ------ end max992px ------- */
+
+/* -------------------------------------------------- min992px to max1200+ ------------------------------------------------- */
+
+@media (min-width : 992px) and (max-width: 1365px){
+	.pg_ser_txt{
+	    padding-top: 40px;
+	    padding-left: 60px;
+	}
+	.pg_ser_txt h3 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	.pg_contact_info{
+		padding-top: 40px;
+	}
+}
+
+@media (min-width : 992px) and (max-width: 1200px){
+	
+}
+
+@media (min-width : 991px) and (max-width: 1199px){
+	.event_packages_single{
+		width: 290px;
+	}
+	.ab_us_skill_info{
+		/*margin-top: 0;*/
+	}
+	.progress{
+		margin-bottom: 10px;
+	}
+}
+@media (min-width : 992px) and (max-width: 1023px){
+	nav.navbar.bootsnav ul.nav > li > a {
+	    padding: 30px 15px;
+	}
+}
+@media (max-width: 1024px){
+	nav.navbar.bootsnav.navbar-fixed .logo-display {
+	    display: none !important;
+	}
+}
+/* -------------------------------------------------------- max991px -------------------- */
+/* -------------------------------------------------------------------------------------- */
+@media screen and (max-width : 991px) {
+	.pg_contact_form_2 .form-group.name label, .pg_contact_form_2 .form-group.email label {
+		-webkit-flex: 1;
+		-moz-flex: 1;
+		-ms-flex: 1;
+		-o-flex: 1;
+	    flex: 1;
+	}
+
+	.pg_ser_txt{
+	    padding-bottom: 122px;
+	}	
+	
+    .pfr_services_info {
+	    margin-bottom: 60px;
+	}
+	.pfr_about_info1 {
+		max-width: 600px;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+	.pg_contact_form_2 .form-group.email {
+	    margin-left: 0px;
+	}
+	.pg_contact_form_2 .form-group.name {
+	    margin-right: 0px;
+	}
+	.pg_contact_form_2 .form-control{
+		margin-left: 0;	
+	}
+
+	.pf_g_footer.sec_pd {
+	    padding: 120px 0 50px 0;
+	}
+
+	.pf_g_footer_widget {
+	    max-width: 250px;
+	    margin: 0 auto 60px auto;
+	}
+	.pf_g_buy_txt {
+	    margin-left: 0px;
+	}
+	.pf_g_buy_btn{
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	.pf_g_f_copyright{
+		padding: 16px 0;
+	}
+	.pf_g_f_c_single{
+		max-width: 370px;
+		margin: 0px auto;
+		padding: 10px 0;
+		text-align: center;
+	}
+	.hamburger-box .txt{
+		display: none;
+	}
+	.hamburger-inner,.hamburger-inner:before,.hamburger-inner:after {
+	    background-color: #000;
+	}
+
+	.event_counter_content{
+		display: block;
+	}
+	.event_counter_content li{
+		display: inline-block;
+		margin: 20px 30px;
+		max-width: 100px;
+	}
+	.event_registration_txt{
+		padding-top: 0;
+	}
+	.event_faq_accrodian{
+		margin-top: 50px;
+	}
+	.evnt_prgrm_tab_panel .panel-collapse>.panel-body .left .title,
+	.evnt_prgrm_tab_panel .panel-heading a .left{
+		padding-left: 0;
+		justify-content: center;
+	}
+	.evnt_prgrm_tab_panel .panel-heading a .left{
+		flex: 2.5;
+		padding-left: 20px;	
+	}
+	.evnt_prgrm_tab_panel .panel-heading a .right{
+		flex: 6;
+		padding-right: 60px;			
+	}
+	.evnt_prgrm_tab_panel.panel-default .panel-collapse>.panel-body{
+		padding: 20px 20px 20px 45px !important;
+	}
+	.evnt_prgrm_tab_panel .panel-collapse>.panel-body .left .title .txt {
+	    padding-right: 10px;
+	}
+	.evnt_prgrm_tab_panel .panel-heading a .right h3 {
+	    font-size: 14px;
+	    line-height: 20px;
+	   	max-width: 300px;
+	}
+	.progress{
+		margin-bottom: 10px;
+	}
+	.ab_me_about_img {
+		max-width: 625px;
+		margin: 0 auto;
+	    margin-top: 50px;
+	}
+	.ab_us_buy_btn{
+		margin-top: 20px;
+	}
+	.ser_2_ser_contact_btn {
+	    text-align: left;
+	    margin-top: 30px;
+	}
+	.ser_sin_1_works_img {
+	    margin-top: 50px;
+	}
+	.blog-sidebar {
+	    max-width: 500px;
+	    margin: 0 auto 60px auto;
+	}
+
+	.blog-post .post-content .post_info{
+		left: 25px;
+		width: calc(100% - 50px);
+	}
+	.single-post .like_cmnt{
+		margin-top: 20px;
+		margin-left: 0;
+		float: none !important;
+		display: inline-block;
+	}
+	.contact_1_info {
+		margin-bottom: 50px;
+	}
+	.pfr_skill_progress {
+	    margin-top: 50px;
+	}
+
+	.default_ab_us_imgs {
+	    margin-top: 50px;
+	}
+
+
+} 
+/* ------ end max991px ------- */
+
+/* --------------------------------------------------------------- min992px ---------------------- */
+/* -------------------------------------------------------------------------------------------------- */
+@media screen and (min-width : 992px) {	
+
+	
+	
+}/* ------ end min992px ------- */
+
+/* --------------------------------------------------------------- max768px ---------------------- */
+/* -------------------------------------------------------------------------------------------------- */
+@media screen and (max-width : 768px) {	
+	
+	.pf_g2_banner .dt {
+	    min-height: 600px;
+	}
+
+	.pfr_slider_txt h4{
+	    font-size: 16px;
+	}
+	.pfr_slider_txt h3, .pfr_slider_txt h2,.cd-words-wrapper b {
+	    font-size: 30px;
+	    line-height: 30px;
+	}
+
+}/* ------ end max768px ------- */
+
+
+/* ------------------------------------------------------------ min768px to max1200+ --------------------------------------- */
+@media (min-width : 768px) and (max-width: 1200px){
+	
+	
+
+}
+
+/* ----------------------------------------------------- min768px to max991px ---------------------- */
+/* -------------------------------------------------------------------------------------------------- */
+@media (min-width : 768px) and (max-width: 991px){
+	
+	
+
+}
+
+/* -------------------------------------------------------------------- min768px -------------------- */
+/* -------------------------------------------------------------------------------------------------- */
+@media (min-width : 768px){
+	
+	
+
+}/* ------ end min768px ------- */
+
+/* -------------------------------------------------------------------- max767px -------------------- */
+/* -------------------------------------------------------------------------------------------------- */
+@media screen and (max-width : 767px) {
+	.pfh_partners_single{
+		max-width: 100%;
+	}
+	.pfh_footer_widget {
+	    max-width: 370px;
+	    margin: 0 auto;
+	    padding-top: 60px;
+	    text-align: center;
+	}
+
+	.pfr_testi_item .txt{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.pg_partners_single {
+		/*border: 1px solid #c8c8c8;*/
+		border-right: 1px solid #c8c8c8;
+	}
+	.col-md-3:nth-child(1) .pg_partners_single,
+	.col-md-3:nth-child(2) .pg_partners_single{ border-bottom: 1px solid #c8c8c8; }
+	.col-md-3:nth-child(odd) .pg_partners_single{
+		border-left: none;
+		border-right: 1px solid transparent;
+	}
+	.col-md-3:nth-child(even) .pg_partners_single{
+		border-right: none;
+	}
+	.evnt_prgrm_tab_panel.panel-default>.panel-heading .accordion-toggle,
+	.evnt_prgrm_tab_panel.panel-default>.panel-heading .accordion-toggle.collapsed{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.ab_us_feat_single:after {
+		/*top: 90%;
+		right: 0;
+		left: 50%;
+		transform: translateX(-50%);*/
+		display: none;
+	}
+	.ab_us_cntr_single{
+		margin-bottom: 50px;
+	}
+	.ab_us_testimonial_item{
+		padding: 66px;
+	}
+	.ab_us_testimonial_item li.ab_us_testi_auhor{
+		width: 38%;
+	}
+	.ab_us_partners_contents ul{
+		display: block;
+	}
+	.ab_us_partners_contents ul li{
+		display: inline-block;
+		padding: 25px;
+	}
+	.pf_breadcrumb.breadcrumb{
+	    padding: 10px 20px;
+	}
+	.pf_breadcrumb.breadcrumb a{
+		font-size: 10px;
+		line-height: 20px;
+		letter-spacing: .5px;
+	}
+
+
+
+}/* ------ end max767px ------- */
+
+@media screen and (max-width : 670px) {
+	#pfr_testimonial.owl-theme .owl-nav .owl-prev{
+		margin-right: 170px;
+	}
+}
+@media screen and (max-width : 544px) {
+	#pfr_testimonial.owl-theme .owl-nav .owl-prev{
+		margin-right: 130px;
+	}
+	#pfr_testimonial.owl-theme .owl-nav {
+	    position: relative;
+	}
+}
+
+/* --------------------------------------------------------------- max640px ---------------------- */
+/* -------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width : 640px) {	
+
+	.pg_ser_txt{
+	    padding: 100px 50px;
+	}
+	.pg_contact_form_2 .form-group {
+	    display: block;
+	    margin-bottom: 30px;
+	}
+
+	.pf_g_menu.portfolio_menu li{
+		margin: 0 8px;
+	}
+	
+
+	.pfr_slider_s_icon a i {
+	    padding: 7px;
+	}
+	.pfr_slider_scroll_down a{
+	    margin: 50px 0 0 70px;	
+	}
+	.evnt_prgrm_tab_panel .panel-heading .accordion-toggle:after{
+		right: 40px;
+	}
+	.evnt_prgrm_tab_panel .panel-collapse>.panel-body .right {
+	    padding-left: 15px;
+	}
+	.evnt_prgrm_tab_panel.panel-default .panel-collapse>.panel-body {
+	    padding: 10px !important;
+	    display: block;
+	}
+	.evnt_prgrm_tab_panel .panel-collapse>.panel-body .left {
+	    margin-bottom: 20px;
+	}
+	.ao-countdown-row-md .ao-countdown {
+	    padding: 0px 0px 24px 8px;
+	    margin: 0 10px;
+	}
+	.ser_2_testimonial_1, .ser_2_testimonial_2 {
+	    width: 50%;
+	    padding: 48px 0px;
+	}
+	.pg_social_pro a{
+		display: block;
+	}
+	.pg_scroll_top{
+		left: 50%;
+		transform: translateX(-50%);
+		padding: 30px 0 0 0;
+		position: relative;
+		display: block;
+		text-align: center
+	}
+
+	.page_banner_text h2 {
+	    font-size: 30px;
+	}
+
+		
+
+}/* ------ end max640px ------- */
+
+@media screen and (min-width : 481px) and (max-width: 768px){
+	.ser_2_item.portfolio_item .ov_content .txt h3{
+		font-size: 10px;
+		padding-bottom: 0;
+	}
+	.ser_2_item.portfolio_item .ov_content .txt h4{
+		font-size: 8px;
+	}
+	.ser_2_item.portfolio_item .ov_content .txt h3:before{
+		height: 20px;
+		width: 1px;
+	}
+	.ser_2_item.portfolio_item{
+		padding: 3px;
+	}
+}
+
+/* --------------------------------------------------------------- max480px ---------------------- */
+/* -------------------------------------------------------------------------------------------------- */ 
+@media screen and (max-width : 480px) {
+	.pfr_info_single{
+
+	}
+	.pfr_about_info .col-xs-4 {
+	    width: 100%;
+	}
+	.pf_g_menu.portfolio_menu li{
+		margin: 8px;
+	}
+
+	.pfr_slider_txt h4{
+	    font-size: 16px;
+	}
+	.pfr_slider_txt h3, .pfr_slider_txt h2,.cd-words-wrapper b {
+	    font-size: 20px;
+	    line-height: 20px;
+        letter-spacing: 5px;
+	}
+	.pfh_scroll_top {
+        margin-bottom: 20px;
+        left: 40%;
+	}
+
+	.event_packages_single{
+		width: 290px;
+	}
+	.event_packages_txt.pkg2 .price h2{
+		font-size: 30px;
+	}
+	.event_packages_txt.pkg1 h3{
+		font-size: 30px;
+	}
+	.event_packages_txt.pkg2 .price h3{
+		padding-right: 10px;
+	}
+
+	.owl_event_item .author,.owl_event_item .quote{
+		max-width: 400px
+	}
+	.owl_event_item .author h4 {
+	    line-height: 26px;
+	}
+	.owl_event_item .testimony p{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	
+	.event_reg_banner{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.event_reg_banner h3{
+		font-size: 25px;
+		line-height: 26px;
+	}
+	.event_reg_banner h4{
+		font-size: 15px;
+		line-height: 19px;
+	}
+	.event_reg_banner li:first-child{
+		padding-right: 10px;
+	}
+	.event_reg_banner li:last-child{
+		padding-left: 10px;
+	}
+	.event_registration_txt h2{
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.my-videos-dimensions, .my-video-dimensions{
+		height: 300px !important;
+	}
+	.event_banner_txt h2{
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.event_banner_txt h3{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.event_banner_txt .event_btn{
+		padding: 5px 10px;
+		font-size: 10px;
+	}
+	.evnt_prgrm_tab_panel .panel-collapse>.panel-body .left{
+		flex: 4;
+	}
+	.evnt_prgrm_tab_panel .panel-collapse>.panel-body .right{
+		flex: 8;
+	}
+	.evnt_prgrm_nav_tab.nav.nav-tabs>li a{
+		padding: 30px 5px;
+		font-size: 15px;
+	}
+
+	.ao-countdown-row-md .ao-countdown {
+	    max-width: 200px;
+	    margin: 20px auto;
+	    margin-right: 10px;
+	    float: none;
+	}
+	.ab_us_testimonial_item{
+		padding: 60px 30px;
+	}
+	.ab_us_testimonial_item ul{
+		flex-direction: column;
+	}
+	.ab_us_testimonial_item li.ab_us_testi_auhor,
+	.ab_us_testimonial_item li.ab_us_testi_txt{
+		width: 80%;
+	}
+	.ab_us_testimonial_item {
+	    padding: 60px 30px;
+	    padding: 10%;
+	}
+	.ab_us_testimonial_item li.ab_us_testi_auhor{
+		border-right-color: transparent;
+	}
+	.ab_us_testimonial_item li.ab_us_testi_txt{
+		margin-top: 20px;
+	}
+	#ab_us_testimonial_owl.owl-theme .owl-nav.disabled+.owl-dots{
+		top: -10px;
+	}
+	.ser_2_testimonial_item {
+		flex-direction: column;
+	}
+	.ser_2_testimonial_1, .ser_2_testimonial_2 {
+	    width: 100%;
+	}
+	.comment.comment-reply {
+	    margin-left: 50px;
+	}
+	.single-post .tag-cloud .tags_btn{
+		margin-bottom: 10px;
+	}
+	.page_banner_breadcrumb{
+	   padding: 15px 20px;
+	}
+	.breadcrumb-item  a {
+	    font-size: 10px;
+	}
+	.ser_sin_1_btn{
+	    padding: 7px 30px;
+	}
+
+
+
+}/* ------ end max480px ------- */
+
+/* --------------------------------------------------------------- max320px + ---------------------- */
+/* -------------------------------------------------------------------------------------------------- */ 
+@media screen and (max-width : 400px) {
+	.event_about_btn .event_btn {
+	    padding: 6px 10px;
+	}
+	.evnt_prgrm_tab_panel .panel-heading a .left h3 {
+	    font-size: 13px;
+	    margin-left: 8px;
+	}
+	.pfr_skill_info a.pfr_btn{
+		font-size: 12px;
+		padding: 3px 20px;
+		margin-right: 10px;
+	}
+	.blog-post .post-content{
+		padding-top: 160px;
+	}
+	
+}/* ------ end max400px ------- */
+@media screen and (max-width : 350px) {
+	.evnt_prgrm_tab_panel .panel-heading .accordion-toggle:before {
+	    left: 20px;
+	    width: calc(100% - 40px);
+	}
+	.evnt_prgrm_tab_panel .panel-heading a .left {
+	    padding-left: 0px;
+	}
+}
+@media screen and (max-width : 320px) {
+
+	.pg_price_single {
+	    padding: 0 15px;
+	}
+	.pg_testi_item .txt p{
+		font-size: 14px;
+	}
+	.pg_testi_item .auth_info h3{
+		font-size: 12px;
+		letter-spacing: 1px;
+	}
+	.pg_testi_item .auth_info h4{
+		font-size: 9px;
+		letter-spacing: 0px;
+		margin-left: -10px;
+	}
+	
+	.event_packages_single{
+		width: 220px;
+		min-height: 300px;
+	}
+	.event_about_btn .event_btn:last-child{
+	    margin-top: 10px;
+	}
+	.evnt_prgrm_tab_panel .panel-heading .accordion-toggle:after {
+	    right: 10px;
+	}
+
+
+
+}/* ------ end max320px ------- */
+@media screen and (max-width : 299px) {
+	.forcefullwidth_wrapper_tp_banner{ display: none; }	
+}
+
+
+/* =====================================================================
+//         							The End                         
+======================================================================== */
+
